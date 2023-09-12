@@ -77,13 +77,3 @@ paths:
           description: Se eliminaron los productos correctamente
         '500':
           description: Se produjo un error en la conexion del servidor
-# components:
-#   requestBodies:
-#     updateProduct:
-#       type: object
-#       properties:
-#         price:
-#           type: String
-#           description: precio del producto
-#       example:
-#         price: '2000'

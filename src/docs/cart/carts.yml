@@ -121,20 +121,3 @@ paths:
       responses:
         '200':
           description: Se obtuvo el carrito correctamente
-#
-# components:
-#   schemas:
-#     Cart:
-#       type: object
-#       properties:
-#         _id:
-#           type: ObjectId
-#           description: ID autogenerado
-#         products:
-#           type: array
-#           description: Arreglo con produtos
-#           items:
-#             type: object
-#             properties:
-#               id: 63e02d5597fe54556cbbcf17
-#               quantity: 1
