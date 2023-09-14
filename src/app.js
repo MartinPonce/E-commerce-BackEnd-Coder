@@ -11,7 +11,6 @@ const FileStore = require('session-file-store');
 const mongoconnect = require('connect-mongo');
 const mongoose = require('mongoose');
 const productModel = require('./dao/models/products.model');
-// const { PORT } = require('./utils/constants');
 const { init } = require('./dao/models/users.model');
 const { initPassaport } = require('./utils/passport.config');
 const passport = require('passport');
@@ -25,11 +24,9 @@ const multer = require('multer');
 const cors = require('cors');
 const PORT = process.env.PORT || 8080;
 const FileStorage = FileStore(session);
-// const httpServer = server.listen(8080, () => {});
 
 const httpServer = server.listen(PORT, () => console.log('Servidor listo escuchando en puerto ${PORT}'));
 
-// Documentacion Swagger
 server.use(
   cors({
     credentials: true,
@@ -78,14 +75,12 @@ server.use(
   })
 );
 
-// server.use(mdwlLogger);
+
 server.use(errorList);
 initPassaport();
 server.use(passport.initialize());
 server.use(passport.session());
-// Middlewares de logger
 server.use(mdwlLogger);
-//rutas
 
 server.use('/', router);
 

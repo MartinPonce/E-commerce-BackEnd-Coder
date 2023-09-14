@@ -2,7 +2,6 @@ const { updateQuantityProduct } = require('../../controller/carts.controller.bd'
 const cartsModel = require('../models/carts.model');
 const ticketModel = require('../models/ticket.model');
 const { faker } = require('@faker-js/faker');
-// const productModel = require('../models/products.model')
 
 class BdCartsManager {
   constructor() {
@@ -84,7 +83,6 @@ class BdCartsManager {
     const cartUpdated = await cartsModel.findByIdAndUpdate(cart.id, cart, { new: true });
     return cartUpdated;
   };
-  // /Nuevos metodos por aplicacion del ticket y el stock/
   deleteProductToCart = async (cid, pid) => {
     try {
       const cartFinded = await this.getById(cid);

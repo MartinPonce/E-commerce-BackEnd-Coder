@@ -73,7 +73,7 @@ const deleteProductBd = async (req, res, next) => {
     if (propietario === 'premium') {
       mailingService.sendMail({
         to: productExist.owner,
-        subject: 'Se ha eliminado tu producto de Brebajes Magicos',
+        subject: 'Se ha eliminado tu producto de La Bodeguita',
         html: `<div style="background-color: wine; color: withe; display: flex; flex-direction: column; justify-content: center;  align-items: center;">
               <h1>Tu producto ${productExist}ha sido eliminado!</h1>
               </div>`,
@@ -87,7 +87,7 @@ const deleteProductBd = async (req, res, next) => {
       if (productExist.owner) {
         mailingService.sendMail({
           to: req.user.email,
-          subject: 'Se ha eliminado tu producto de Brebajes magicos',
+          subject: 'Se ha eliminado tu producto de La Bodeguita',
           html: `<div style="background-color: wine; color: withe; display: flex; flex-direction: column; justify-content: center;  align-items: center;">
                 <h1>Tu cuenta ha sido eliminada!</h1>
                 <a>Si quieres continuar usando nuestros servicios puedes generar una nueva cuenta.</a>

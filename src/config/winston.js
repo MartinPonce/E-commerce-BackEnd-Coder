@@ -1,6 +1,5 @@
 const winston = require('winston');
 
-//Niveles de errores
 const customLevels = {
   levels: {
     fatal: 0,
@@ -20,7 +19,6 @@ const customLevels = {
   },
 };
 
-//Logger de produccion
 const loggerProd = winston.createLogger({
   levels: customLevels.levels,
   transports: [

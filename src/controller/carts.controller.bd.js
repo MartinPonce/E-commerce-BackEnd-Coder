@@ -55,13 +55,6 @@ const addProductToCart = async (req, res) => {
       msg: 'Carrito no Encontrado',
     });
   }
-  //to do: revisar si el cart esta vacio ahi corresponde el newcart.
-  // const newCart = {
-  //   priceTotal: cart.priceTotal + product.price,
-  //   quantityTotal: cart.quantityTotal + 1,
-  //   products: [...cart.products, ...[{ id: product.id }]],
-  //   id: cart.id,
-  // };
 
   const cartToSave = await BdCartManager.addProductToCarts(cid, product);
   console.log(cartToSave);
@@ -69,23 +62,6 @@ const addProductToCart = async (req, res) => {
     msg: 'Producto agregado',
     cart: cartToSave,
   });
-
-  // const findProduct = cart.products.find((product) => product.id === pid);
-
-  // if (!findProduct) {
-  //   cart.products.push({ id: product.id });
-  //   cart.priceTotal = cart.priceTotal + product.price;
-  // } else {
-  //   findProduct.quantity++;
-  //   cart.priceTotal = cart.products.reduce((Acomulador, ProductoActual) => Acomulador + product.price * ProductoActual.quantity, 0);
-  // }
-  // cart.quantityTotal = cart.quantityTotal + 1;
-  // const cartToUpdate = await BdCartManager.updateCartProducts(cart);
-
-  // return res.status(201).json({
-  //   msg: `Producto agregado al carrito: ${cid}`,
-  //   cart: cartToUpdate,
-  // });
 };
 
 const deleteProductToCart = async (req, res) => {
