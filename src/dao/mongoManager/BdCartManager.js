@@ -1,4 +1,4 @@
-const { updateQuantityProduct } = require('../../controller/carts.controller.bd');
+//const { updateQuantityProduct } = require('../../controller/carts.controller.bd');
 const cartsModel = require('../models/carts.model');
 const ticketModel = require('../models/ticket.model');
 const { faker } = require('@faker-js/faker');
