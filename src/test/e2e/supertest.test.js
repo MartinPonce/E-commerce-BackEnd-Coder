@@ -1,6 +1,6 @@
 const chai = require('chai');
 const superTest = require('supertest');
-const testingURL = 'http://localhost:3000'; // 8080
+const testingURL = 'http://localhost:8080'; // 8080
 const request = superTest(testingURL);
 const expect = chai.expect;
 const testingProducts = ['664724e10c1ef4edc5e425926'];
