@@ -1,9 +1,11 @@
 const chai = require('chai');
 const superTest = require('supertest');
-const testingURL = 'http://localhost:8080'; // 8080
+const testingURL = 'http://localhost:8080'; 
 const request = superTest(testingURL);
 const expect = chai.expect;
 const testingProducts = ['664724e10c1ef4edc5e425926'];
+
+//Testing de productos
 
 describe('Test de productos', () => {
   const product = {
@@ -84,10 +86,7 @@ describe('Test de sesiones', () => {
     password: 'Cod3r123',
   };
 
-  // const userLogin = {
-  //   email: 'adminCoder@coder.com',
-  //   password: 'Cod3r123',
-  // };
+  
   let cookie;
 
   it(`Testing de registro`, async () => {
