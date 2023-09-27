@@ -5,7 +5,7 @@ const request = superTest(testingURL);
 const expect = chai.expect;
 const testingProducts = ['664724e10c1ef4edc5e425926'];
 
-//Testing de productos
+// Testing de productos
 
 describe('Test de productos', () => {
   const product = {

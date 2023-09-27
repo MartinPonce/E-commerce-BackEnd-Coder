@@ -5,7 +5,7 @@ const roles = ['admin', 'user', 'premium'];
 
 const userSchema = new mongoose.Schema({
   firstName: {
-    type: String,
+    type: String,     // solidificamos procesos (string)
     required: true,
   },
   lastName: {
@@ -36,7 +36,7 @@ const userSchema = new mongoose.Schema({
     type: [
       {
         name: String,
-        reference: String,
+        reference: String,  // solidificamos procesos (string)
       },
     ],
     default: [],

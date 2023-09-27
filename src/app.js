@@ -22,7 +22,7 @@ const swaggerJsDoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 const multer = require('multer');
 const cors = require('cors');
-const PORT = process.env.PORT || 8080; 
+const PORT = process.env.PORT || 8080;   
 const FileStorage = FileStore(session);
 
 const httpServer = server.listen(PORT, () => console.log('Servidor listo escuchando en puerto ${PORT}'));

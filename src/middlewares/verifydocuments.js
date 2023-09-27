@@ -1,3 +1,4 @@
+//modificamos el middleware de multer
 const { TYPE_DOCUMENTS } = require('../config/config');
 
 const verifyDocuments = async (req, res, next) => {
