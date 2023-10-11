@@ -30,5 +30,5 @@ Para el presente desafio debimos instalar las dependencias npm cookies-parser & 
 
 #AGRADECIMIENTO:
 
-    Quiero resaltar la gran dedicación de mi tutora Laura Acuña, y la de todos los tutores responsables de llevar esta comisión adelante. Excelente desempeño!
-    Por último agradecerle a nuestro profesor Guillermo Fregnani su dedicación y compromiso con cada uno de los temas desarrollados a lo largo de la cursada. Excelente profesional!
+Quiero resaltar la gran dedicación de mi tutora Laura Acuña, y la de todos los tutores responsables de llevar esta comisión adelante. Excelente desempeño!
+Por último agradecerle a nuestro profesor Guillermo Fregnani su dedicación y compromiso con cada uno de los temas desarrollados a lo largo de la cursada. Excelente profesional!
