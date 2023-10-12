@@ -30,7 +30,7 @@ const httpServer = server.listen(PORT, () => console.log('Servidor listo escucha
 server.use(
   cors({
     credentials: true,
-    origin: 'https://fantastic-sable-b89118.netlify.app/',
+    origin: '',
   })
 );
 
