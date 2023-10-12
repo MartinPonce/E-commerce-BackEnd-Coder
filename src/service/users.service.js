@@ -9,7 +9,6 @@ class UserService {
     return userModel.find(email, firstName, role);
   }
 
-  // getUser =() => this.dao.get()
 
   insertUser(user) {
     return this.dao.insert(user);
