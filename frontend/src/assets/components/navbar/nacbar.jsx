@@ -9,7 +9,7 @@ function Navbars() {
     <>
       <Navbar className="navbarestilos">
         <Container>
-          <Navbar.Brand href="#home">La Bodeguita</Navbar.Brand>
+          <Navbar.Brand href="#home">Brebajes Magicos</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/home">Inicio</Nav.Link>
             <Nav.Link href="">Vinos</Nav.Link>
