@@ -33,3 +33,4 @@ Para el presente desafio debimos instalar las dependencias npm cookies-parser & 
 Quiero expresar y resaltar mi más sincero agradecimiento al profesor Guillermo Fregnani y a mi tutora Laura Acuña por su dedicación y esfuerzo en esta cursada. Su compromiso con nuestra formación fue evidente en cada clase, donde compartieron sus conocimientos con paciencia y claridad. Gracias a su guía, pudimos comprender conceptos complejos y aplicarlos en la creación del proyecto "E-commerce". Su apoyo ha sido invaluable y estoy agradecido por la oportunidad de aprender de profesionales tan dedicados.
 
 Cordial y afectuoso saludo!
+Martin Ponce.
