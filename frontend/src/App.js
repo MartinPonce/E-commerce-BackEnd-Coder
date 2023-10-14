@@ -10,6 +10,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './assets/styles/GenericStyle.css';
 import Forgotpass from './assets/components/forgot/Forgot';
 import Stripe from './assets/components/stripe/Stripe';
+ 
 function App() {
   return (
     <BrowserRouter>
